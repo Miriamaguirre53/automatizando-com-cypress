@@ -1,0 +1,18 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Aqui estamos por comenzar a practicar automatizar test cases.",
+  "main": "index.js",
+  "scripts": {
+    "pruebas-edge": "cypress run --spec cypress/e2e/testorange.cy.js --browser edge ",
+    "pruebas-chrome": "cypress run --spec cypress/e2e/testorange.cy.js --browser chrome",
+    "pruebas-firefox": "cypress run --spec cypress/e2e/testorange.cy.js --browser firefox ",
+    "test:chrome": "cypress run --spec cypress/e2e/formulario.cy.js --browser chrome",
+    "test:edge": "cypress run --spec cypress/e2e/formulario.cy.js --browser edge"
+  },
+  "author": "Miriam Elisabet Aguirre",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.2"
+  }
+}
